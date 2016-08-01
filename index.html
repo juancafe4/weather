@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather</title>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="container">
+
+  
+      <h3 class="center-align location">
+      <div class=".loding center-align preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+        <div class="circle"></div>
+            </div><div class="circle-clipper right">
+            <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+    </h3>
+    
+
+  </div>
+
+  <div class="  currentTemp container" >
+      <div class="row center-align">
+        <div class="col s1 m2">
+          <div id="temp">
+            <canvas id="icon1" class="z-depth-3" width="128" height="128">
+            </canvas>
+            <span id='grade' ></span>
+          </div>
+        </div>  
+      </div>
+  </div>
+</body>
+</html>
